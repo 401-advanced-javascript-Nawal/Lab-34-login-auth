@@ -2,10 +2,16 @@
   "name": "Lab-34-login-auth",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "eslint '**/*.js'",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/401-advanced-javascript-Nawal/Lab-34-login-auth.git"
@@ -16,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/401-advanced-javascript-Nawal/Lab-34-login-auth/issues"
   },
-  "homepage": "https://github.com/401-advanced-javascript-Nawal/Lab-34-login-auth#readme",
+  "homepage": "https://Nsuliman.github.io/Lab-34-login-auth",
   "dependencies": {
     "jsonwebtoken": "^8.5.1",
     "react": "^16.13.0",
