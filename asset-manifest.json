@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Lab-34-login-auth/static/js/main.9b8476d4.chunk.js",
+    "main.js.map": "/Lab-34-login-auth/static/js/main.9b8476d4.chunk.js.map",
+    "runtime-main.js": "/Lab-34-login-auth/static/js/runtime-main.7052c897.js",
+    "runtime-main.js.map": "/Lab-34-login-auth/static/js/runtime-main.7052c897.js.map",
+    "static/js/2.90489b57.chunk.js": "/Lab-34-login-auth/static/js/2.90489b57.chunk.js",
+    "static/js/2.90489b57.chunk.js.map": "/Lab-34-login-auth/static/js/2.90489b57.chunk.js.map",
+    "index.html": "/Lab-34-login-auth/index.html",
+    "precache-manifest.945a30a840c9366dac8df3599de654d3.js": "/Lab-34-login-auth/precache-manifest.945a30a840c9366dac8df3599de654d3.js",
+    "service-worker.js": "/Lab-34-login-auth/service-worker.js",
+    "static/js/2.90489b57.chunk.js.LICENSE.txt": "/Lab-34-login-auth/static/js/2.90489b57.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7052c897.js",
+    "static/js/2.90489b57.chunk.js",
+    "static/js/main.9b8476d4.chunk.js"
+  ]
+}
