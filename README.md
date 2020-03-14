@@ -20,5 +20,5 @@
 - npm run lint 
 
 #### UML
-- [UML]()
+- [UML](https://github.com/401-advanced-javascript-Nawal/Lab-34-login-auth/blob/login-auth/20200314_185513.jpg)
 - [gh-pages](https://401-advanced-javascript-nawal.github.io/Lab-34-login-auth/)
