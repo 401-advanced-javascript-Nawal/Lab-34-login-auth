@@ -13,8 +13,8 @@ class LoginProvider extends React.Component {
       loggedIn: false,
       login: this.login,
       logout: this.logout,
-      user: {}
-    }
+      user: {},
+    };
   }
 
   login = (username, password) => {
@@ -23,12 +23,12 @@ class LoginProvider extends React.Component {
       mode: 'cors',
       cache: 'no-cache',
       headers: new Headers({
-        'Authorization': `Basic ${btoa(`${username}:${password}`)}`
-      })
+        'Authorization': `Basic ${btoa(`${username}:${password}`)}`,
+      }),
     })
-    .then(response => response.text())
-    .then(token => this.validateToken(token))
-    .catch(console.error);
+      .then(response => response.text())
+      .then(token => this.validateToken(token))
+      .catch(console.error);
   }
 
   validateToken = token => {
@@ -62,7 +62,7 @@ class LoginProvider extends React.Component {
       <LoginContext.Provider value={this.state}>
         {this.props.children}
       </LoginContext.Provider>
-    )
+    );
   }
 }
 

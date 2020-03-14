@@ -4,7 +4,7 @@ import { JsonWebTokenError } from 'jsonwebtoken';
 
 const If = props => {
   return props.condition ? props.children : null;
-}
+};
 
 class Login extends React.Component {
   static contextType = LoginContext;
@@ -13,8 +13,8 @@ class Login extends React.Component {
     super(props);
     this.state = {
       username: '',
-      password: ''
-    }
+      password: '',
+    };
   }
 
   handleChange = e => {
@@ -42,7 +42,7 @@ class Login extends React.Component {
           </form>
         </If>
       </>
-    )
+    );
   }
 }
 

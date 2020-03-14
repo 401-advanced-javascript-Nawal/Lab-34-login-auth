@@ -8,16 +8,16 @@ const Edit = props => {
     <Auth capability="update">
       <span>You can edit!</span>
     </Auth>
-  )
-}
+  );
+};
 
 const Delete = props => {
   return (
     <Auth capability="delete">
       <span>You can delete!</span>
     </Auth>
-  )
-}
+  );
+};
 
 class App extends React.Component {
   render() {
@@ -27,7 +27,7 @@ class App extends React.Component {
         <Edit />
         <Delete />
       </LoginContext>
-    )
+    );
   }
 }
 

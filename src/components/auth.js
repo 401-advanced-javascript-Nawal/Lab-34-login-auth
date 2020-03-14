@@ -2,8 +2,8 @@ import React from 'react';
 import { LoginContext } from './context.js';
 
 const If = props => {
-  return props.condition ? props.children : null
-}
+  return props.condition ? props.children : null;
+};
 
 class Auth extends React.Component{
   static contextType = LoginContext;
@@ -24,7 +24,7 @@ class Auth extends React.Component{
       <If condition={okToRender}>
         <div>{this.props.children}</div>
       </If>
-    )  
+    );  
   }
 }
 
